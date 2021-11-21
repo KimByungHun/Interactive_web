@@ -59,7 +59,7 @@ function activation(index, item){
 
 function matchHeight(index, item){
     let ht = item.eq(index).height();
-    $tab.animate({height : ht , marginTop : -ht/2 }, speed, ease, function(){
+    $tab.animate({height : ht , marginTop : -ht/2 }, speed, ease, function()
         isDone = true;
     });
 }
